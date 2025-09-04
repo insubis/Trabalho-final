@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
   new Chart(teamCtx, {
     type: 'doughnut',
     data: {
-      labels: ['João (Bluetooth)', 'Ana (RFID)', 'Maria (UI/UX)', 'Pedro (Dashboard)', 'Lucas (SQLite)', 'Equipe (Testes)'],
+      labels: ['Gabriel (Bluetooth)', 'Breno (RFID)', 'Luis (UI/UX)', 'Luis (Dashboard)', 'Gabriel (SQLite)', 'Equipe (Testes)'],
       datasets: [{
         label: 'Dias de Trabalho',
         data: [2, 1, 2, 1, 1, 1],
