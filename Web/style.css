@@ -1,0 +1,26 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #111827;
+}
+
+.chart-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+  max-height: 400px;
+}
+
+@media (min-width: 768px) {
+  .chart-container {
+    height: 400px;
+  }
+}
+
+.flow-arrow {
+  color: #9B5DE5;
+  font-size: 2.5rem;
+  line-height: 1;
+}
